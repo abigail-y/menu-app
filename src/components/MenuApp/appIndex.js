@@ -1,5 +1,5 @@
 import "./App.css"
-import Menu from "../Menu"
+import Menu from "../Menu/Menu";
 
 const MenuApp = ({ data }) => {
   return (
