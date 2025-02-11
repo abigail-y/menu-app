@@ -1,4 +1,4 @@
-import "./App.css"
+
 import Menu from "../Menu";
 
 const MenuApp = ({ data }) => {
