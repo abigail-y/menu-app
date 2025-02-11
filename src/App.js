@@ -1,5 +1,5 @@
 import "../App.css";
-import MenuApp from "./components/MenuApp/appIndex";
+import MenuApp from "./components/MenuApp";
 
 const App = () => {
   let menuData = [
