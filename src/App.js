@@ -1,6 +1,7 @@
-import "./App.css"
-import MenuApp from "./components/MenuApp"
-function App() {
+import "./App.css";
+import MenuApp from "./components/MenuApp/appIndex";
+
+const App = () => {
   let menuData = [
     {
       menuName: "Dinner",
@@ -23,7 +24,7 @@ function App() {
           itemPrice: "14",
           itemName: "Chicken Parmesan",
           itemDescription:
-            "Breaded chicken topped with marinara sauce and lots of cheese served over house made spaghetti.",
+            "Breaded chicken topped with marinara sauce and lots of cheese served over house-made spaghetti.",
         },
       ],
     },
@@ -41,7 +42,7 @@ function App() {
           itemPrice: "8",
           itemName: "Tiramisu",
           itemDescription:
-            "Layers of espresso-soaked ladyfingers and marscarpone cream topped with cocoa and espresso powder.",
+            "Layers of espresso-soaked ladyfingers and mascarpone cream topped with cocoa and espresso powder.",
         },
         {
           itemId: 49,
@@ -58,14 +59,13 @@ function App() {
         },
       ],
     },
-  ]
- //let data = {...}
-const App =() => {
+  ];
+
   return (
     <div className="App">
-        <MenuApp data={menuData} />
+      <MenuApp data={menuData} />
     </div>
-  )
-} 
+  );
 }
+
 export default App;
